@@ -3,4 +3,4 @@
 
  Estou aprendendo a criar sites e agora a gerenciar o Github!
 
- <a href="https://arthurpx-dev.github.io/html-css/exercicios/ex002/index.html" target ="_blank">Execute</a>
+ <a href="https://arthurpx-dev.github.io/html-css/exercicios/ex002/index.html">Execute</a>
