@@ -23,7 +23,7 @@ header{
     background-color: black;
     color: white;
     text-align: center;
-    height: 225px;
+    
     
 }
 header > h1{
@@ -51,12 +51,13 @@ section{
     padding-top: 10vh;
     padding-bottom: 10vh;
     font-family: var(--fonte03);
-    
+    background-color: white;
     font-size: 3.5vw;
 }
 section > p{
     line-height: 2em;
     padding-left: 30px;
+    padding-bottom: 1em;
 }
 section.normal{
     background-color: white;
@@ -65,24 +66,28 @@ section.normal{
 section.imagem{
     background-color: rgb(58, 56, 56);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px 0.514 rgba(0, 0, 0, 0.473);
+    
 
 }
 section.imagem > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.253);
+    margin-left: 30px; 
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
 }
 section#img01{
     background: url(imagens/background001.jpg);
+    background-position: right center;
     background-size: cover;
-    
-    
+    background-attachment: fixed;
 }
 section#img02{
     background: url(imagens/background002.jpg);
-    background-size: cover
-    
-    
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 footer{
     background-color: black;
